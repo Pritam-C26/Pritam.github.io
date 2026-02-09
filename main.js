@@ -1,26 +1,14 @@
+// WOW animation
 new WOW().init();
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href'))
-            .scrollIntoView({ behavior: 'smooth' });
-    });
-});
-// Scroll To Top Button
-const scrollTopBtn = document.getElementById("scrollTopBtn");
+// Scroll to top
+const btn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 150) {
-        scrollTopBtn.style.display = "block";
-    } else {
-        scrollTopBtn.style.display = "none";
-    }
+    btn.style.display = window.scrollY > 200 ? "block" : "none";
 });
 
-scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
