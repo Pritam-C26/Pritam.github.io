@@ -1,276 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Pritam Chowdhury | ASP.NET Developer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Pritam Chowdhury | ASP.NET Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
-<!-- Devicon -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-<!-- GRID BACKGROUND -->
-<div class="bg-grid"></div>
-
-<!-- SIDEBAR -->
-<aside class="neo-sidebar " id="sidebar">
-    <div class="name-logo">
-        <h1>Pritam</h1>
-        <span>ASP.NET Developer</span>
-    </div>
-
-    <nav class="neo-nav">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</aside>
-<!-- TOGGLE BUTTON -->
-<button class="sidebar-toggle" id="sidebarToggle">
-    <i class="fas fa-bars"></i>
-</button>
-<!-- MAIN CONTENT -->
-<main class="main-content">
-
-<!-- HERO -->
-<section id="home" class="section hero-section">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <span class="neo-badge">Hello There 👋</span>
-            <h2>
-                I’m <span class="accent">Pritam Chowdhury</span><br>
-                ASP.NET Developer
-            </h2>
-            <p class="hero-desc">
-                I build structured, database-driven web applications using
-                C#, ASP.NET Web Forms, MVC, and SQL Server.
-            </p>
+    <!-- GRID BACKGROUND -->
+    <div class="bg-grid"></div>
+    <!-- TOGGLE BUTTON -->
+    <button class="sidebar-toggle" id="sidebarToggle">
+        ☰
+    </button>
+    <!-- SIDEBAR -->
+    <aside class="neo-sidebar" id="sidebar">
+        <div class="name-logo">
+            <h1>Pritam</h1>
+            <span>ASP.NET Developer</span>
         </div>
 
-        <div class="col-md-6 text-center">
-            <div class="hero-image">
-                <img src="image/pritam.jpg" alt="Pritam">
-            </div>
-        </div>
-    </div>
-</section>
+        <nav class="neo-nav">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </aside>
 
-<!-- SERVICES -->
-<section id="services" class="section">
-    <h3 class="section-title">Services I Provide</h3>
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
 
-    <div class="row g-4">
-        <div class="col-md-4">
-            <div class="neo-card">
-                <h5>ASP.NET Development</h5>
-                <p>Web Forms & MVC applications with SQL Server backend.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="neo-card">
-                <h5>Admin Panels</h5>
-                <p>Role-based dashboards with CRUD and reporting.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="neo-card">
-                <h5>Frontend UI</h5>
-              <p>Clean, responsive UI using Bootstrap with basic JavaScript for interactions.</p>
-            </div>
-        </div>
-    </div>
-</section>
+        <!-- HERO -->
+        <section id="home" class="section hero-section">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="neo-badge">Hello There 👋</span>
+                    <h2>
+                        I’m <span class="accent">Pritam Chowdhury</span><br>
+                        ASP.NET Developer
+                    </h2>
+                    <p class="hero-desc">
+                        I build structured, database-driven web applications using
+                        C#, ASP.NET Web Forms, MVC, and SQL Server.
+                    </p>
+                </div>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-    <div class="row align-items-center">
-        <div class="col-md-5 text-center">
-            <img src="image/pritam.jpg" class="about-img" alt="Pritam">
-        </div>
-        <div class="col-md-7">
-            <h3>About Me</h3>
-            <p>
-                I am an aspiring ASP.NET Developer focused on building
-                real-world applications like booking systems, admin panels,
-                and database-driven platforms.
-            </p>
-            <div class="about-stats">
-                <div><strong>4+</strong><span>Projects</span></div>
-                <div><strong>1</strong><span>Internship</span></div>
-                <div><strong>ASP.NET</strong><span>Main Stack</span></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section">
-    <h3 class="section-title">Skills & Tools</h3>
-
-    <!-- Backend -->
-    <div class="skill-group">
-        <h5 class="skill-heading">Backend Development</h5>
-        <div class="row text-center g-4 skills-grid">
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-csharp-plain colored"></i>
-                <p>C#</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-dot-net-plain colored"></i>
-                <p>ASP.NET</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Frontend -->
-    <div class="skill-group">
-        <h5 class="skill-heading">Frontend Development</h5>
-        <div class="row text-center g-4 skills-grid">
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-html5-plain colored"></i>
-                <p>HTML5</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-css3-plain colored"></i>
-                <p>CSS3</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-bootstrap-plain colored"></i>
-                <p>Bootstrap</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-javascript-plain colored"></i>
-                <p>JavaScript</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Database & Tools -->
-    <div class="skill-group">
-        <h5 class="skill-heading">Database & Tools</h5>
-        <div class="row text-center g-4 skills-grid">
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-microsoftsqlserver-plain colored"></i>
-                <p>SQL Server</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-visualstudio-plain colored"></i>
-                <p>Visual Studio</p>
-            </div>
-            <div class="col-6 col-md-2 skill-item">
-                <i class="devicon-git-plain colored"></i>
-                <p>Git</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects" class="section">
-    <h3 class="section-title">Projects</h3>
-
-    <div class="row g-4">
-
-        <!-- Project 1 -->
-        <div class="col-md-6">
-            <div class="neo-project-card">
-                <span class="project-badge">ASP.NET Web Forms</span>
-                <h5>FreshKart – Online Grocery Store</h5>
-                <p>
-                    Category-wise product listing, cart system,
-                    checkout process, and admin order management
-                    using SQL Server.
-                </p>
-                <div class="project-tech">
-                    C# • ASP.NET • SQL Server
+                <div class="col-md-6 text-center">
+                    <div class="hero-image">
+                        <img src="image/pritam.jpg" alt="Pritam">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Project 2 -->
-        <div class="col-md-6">
-            <div class="neo-project-card">
-                <span class="project-badge">Multi-Role System</span>
-                <h5>Doctor Appointment System</h5>
-                <p>
-                    Admin, Doctor, and Patient roles with appointment
-                    booking and prescription management.
-                </p>
-                <div class="project-tech">
-                    ASP.NET • SQL Server • Bootstrap
+        <!-- SERVICES -->
+        <section id="services" class="section">
+            <h3 class="section-title">Services I Provide</h3>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="neo-card">
+                        <h5>ASP.NET Development</h5>
+                        <p>Web Forms & MVC applications with SQL Server backend.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="neo-card">
+                        <h5>Admin Panels</h5>
+                        <p>Role-based dashboards with CRUD and reporting.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="neo-card">
+                        <h5>Frontend UI</h5>
+                        <p>Clean, responsive UI using Bootstrap with basic JavaScript for interactions.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Project 3 -->
-        <div class="col-md-6">
-            <div class="neo-project-card">
-                <span class="project-badge">Car Booking</span>
-                <h5>Wheelz – Online Car Store</h5>
-                <p>
-                    Car listing, booking flow, test-drive scheduling,
-                    and admin dashboard.
-                </p>
-                <div class="project-tech">
-                    ASP.NET • C# • SQL Server
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="image/pritam.jpg" class="about-img" alt="Pritam">
+                </div>
+                <div class="col-md-7">
+                    <h3>About Me</h3>
+                    <p>
+                        I am an aspiring ASP.NET Developer focused on building
+                        real-world applications like booking systems, admin panels,
+                        and database-driven platforms.
+                    </p>
+                    <div class="about-stats">
+                        <div><strong>4+</strong><span>Projects</span></div>
+                        <div><strong>1</strong><span>Internship</span></div>
+                        <div><strong>ASP.NET</strong><span>Main Stack</span></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Project 4 -->
-        <div class="col-md-6">
-            <div class="neo-project-card">
-                <span class="project-badge">Admin Panel</span>
-                <h5>Online Student Admission System</h5>
-                <p>
-                    Student registration, admin approval workflow,
-                    and admission data management.
-                </p>
-                <div class="project-tech">
-                    ASP.NET • SQL Server
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <h3 class="section-title">Skills & Tools</h3>
+
+            <!-- Backend -->
+            <div class="skill-group">
+                <h5 class="skill-heading">Backend Development</h5>
+                <div class="row text-center g-4 skills-grid">
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <p>C#</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-dot-net-plain colored"></i>
+                        <p>ASP.NET</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
-</section>
+            <!-- Frontend -->
+            <div class="skill-group">
+                <h5 class="skill-heading">Frontend Development</h5>
+                <div class="row text-center g-4 skills-grid">
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database & Tools -->
+            <div class="skill-group">
+                <h5 class="skill-heading">Database & Tools</h5>
+                <div class="row text-center g-4 skills-grid">
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-microsoftsqlserver-plain colored"></i>
+                        <p>SQL Server</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-visualstudio-plain colored"></i>
+                        <p>Visual Studio</p>
+                    </div>
+                    <div class="col-6 col-md-2 skill-item">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h3 class="section-title">Projects</h3>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="neo-project-card">
+                        <span class="project-badge">ASP.NET Web Forms</span>
+                        <h5>FreshKart – Online Grocery Store</h5>
+                        <p>
+                            Category-wise product listing, cart system,
+                            checkout process, and admin order management
+                            using SQL Server.
+                        </p>
+                        <div class="project-tech">
+                            C# • ASP.NET • SQL Server
+                        </div>
+                        <a href="#" class="project-readmore">
+                            Read More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <div class="neo-project-card">
+                        <span class="project-badge">Multi-Role System</span>
+                        <h5>Doctor Appointment System</h5>
+                        <p>
+                            Admin, Doctor, and Patient roles with appointment
+                            booking and prescription management.
+                        </p>
+                        <div class="project-tech">
+                            ASP.NET • SQL Server • Bootstrap
+                        </div>
+                        <a href="#" class="project-readmore">
+                            Read More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6">
+                    <div class="neo-project-card">
+                        <span class="project-badge">Car Booking</span>
+                        <h5>Wheelz – Online Car Store</h5>
+                        <p>
+                            Car listing, booking flow, test-drive scheduling,
+                            and admin dashboard.
+                        </p>
+                        <div class="project-tech">
+                            ASP.NET • C# • SQL Server
+                        </div>
+                        <a href="#" class="project-readmore">
+                            Read More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6">
+                    <div class="neo-project-card">
+                        <span class="project-badge">Admin Panel</span>
+                        <h5>Online Student Admission System</h5>
+                        <p>
+                            Student registration, admin approval workflow,
+                            and admission data management.
+                        </p>
+                        <div class="project-tech">
+                            ASP.NET • SQL Server
+                        </div>
+                        <a href="#" class="project-readmore">
+                            Read More →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
 
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-    <div class="contact-card">
-        <h3>Contact</h3>
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="contact-card">
+                <h3>Contact</h3>
 
-        <a href="mailto:pritamchowdhury442@gmail.com">
-            📧 pritamchowdhury442@gmail.com
-        </a>
+                <a href="mailto:pritamchowdhury442@gmail.com">
+                    📧 pritamchowdhury442@gmail.com
+                </a>
 
-        <a href="tel:+919382383792">
-            📞 +91 9382383792
-        </a>
+                <a href="tel:+919382383792">
+                    📞 +91 9382383792
+                </a>
 
-        <a href="https://github.com/Pritam-C26" target="_blank">
-            💻 github.com/Pritam-C26
-        </a>
-    </div>
-</section>
+                <a href="https://github.com/Pritam-C26" target="_blank">
+                    💻 github.com/Pritam-C26
+                </a>
+            </div>
+        </section>
 
-</main>
+    </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
