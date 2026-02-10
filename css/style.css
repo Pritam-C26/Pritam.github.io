@@ -70,7 +70,7 @@ body {
 
 /* ================= MAIN ================= */
 .main-content {
-    margin-left: 240px;
+    /* margin-left: 240px; */
     padding: 60px;
 }
 
@@ -251,20 +251,26 @@ body {
 @media (max-width: 992px) {
     .main-content {
         margin-top: 10%;
+        margin-left: 0 !important;
+        width: 100%;
+        padding: 24px 20px;
+    
     }
-
-    .neo-sidebar {
-        left: -240px;
+   .neo-sidebar {
+        position: fixed;
+        top: 0;
+        left: -240px;   /* fully hidden */
+        width: 240px;
+        height: 100vh;
+        z-index: 1000;
+        transition: left 0.3s ease;
     }
 
     .neo-sidebar.active {
         left: 0;
     }
 
-    .main-content {
-        margin-left: 0;
-        padding: 30px 20px;
-    }
+    
 
     .sidebar-toggle {
         display: inline-flex;
@@ -325,7 +331,16 @@ body {
     body {
         font-size: 15px;
     }
+   .hero-desc,
+    .hero-content,
+    .hero-section {
+        text-align: center;
+    }
 
+    .hero-desc {
+        max-width: 100%;
+        line-height: 1.6;
+    }
     .main-content {
         margin-top: 10%;
     }
