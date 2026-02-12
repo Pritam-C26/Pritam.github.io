@@ -254,12 +254,14 @@ body {
         margin-left: 0 !important;
         width: 100%;
         padding: 24px 20px;
-    
+
     }
-   .neo-sidebar {
+
+    .neo-sidebar {
         position: fixed;
         top: 0;
-        left: -240px;   /* fully hidden */
+        left: -240px;
+        /* fully hidden */
         width: 240px;
         height: 100vh;
         z-index: 1000;
@@ -270,7 +272,7 @@ body {
         left: 0;
     }
 
-    
+
 
     .sidebar-toggle {
         display: inline-flex;
@@ -331,7 +333,8 @@ body {
     body {
         font-size: 15px;
     }
-   .hero-desc,
+
+    .hero-desc,
     .hero-content,
     .hero-section {
         text-align: center;
@@ -341,6 +344,7 @@ body {
         max-width: 100%;
         line-height: 1.6;
     }
+
     .main-content {
         margin-top: 10%;
     }
@@ -462,6 +466,53 @@ body {
         cursor: pointer;
 
         z-index: 1101;
-        /* above overlay & sidebar */
+
     }
+}
+
+/* ================= EXPERIENCE ================= */
+
+.experience-card {
+    padding: 28px;
+}
+
+.experience-card h5 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.experience-card ul {
+    margin-top: 14px;
+    padding-left: 18px;
+    color: #9ca3af;
+}
+
+.experience-card ul li {
+    margin-bottom: 8px;
+}
+
+.github-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.github-box h4 {
+    font-weight: 600;
+}
+
+.github-box .btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+/* ================= zoom screenshots ================= */
+.zoom-img {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.zoom-img:hover {
+    transform: scale(1.03);
 }

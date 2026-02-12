@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pritam Chowdhury | ASP.NET Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="bg-grid"></div>
+
+    <!-- SIDEBAR -->
+    <aside class="neo-sidebar" id="sidebar">
+        <div class="name-logo">
+            <h1>Pritam</h1>
+            <span>ASP.NET Developer</span>
+        </div>
+
+        <nav class="neo-nav">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#about">About</a>
+             <a href="index.html#experience">Experience</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- HERO -->
+        <section class="text-center py-5">
+            <h1>DocEase – Online Doctor Appointment System</h1>
+            <p class="lead">
+                A role-based healthcare system built using ASP.NET Web Forms,
+                C#, ADO.NET and SQL Server.
+                Patients can book appointments and view prescriptions,
+                while doctors manage schedules and medical records.
+            </p>
+        </section>
+
+        <!-- GITHUB -->
+        <section class="container text-center py-4">
+            <div class="github-box">
+                <h4>🔗 Project Source Code</h4>
+                <p>
+                    Complete implementation including Patient & Doctor modules,
+                    appointment booking logic and prescription management.
+                </p>
+
+                <a href="https://github.com/Pritam-C26/MYPROJECTS/tree/main/Online_Doctor_Appointment_System"
+                    target="_blank" class="btn btn-dark btn-lg mt-3">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </section>
+        <!-- PATIENT MODULE -->
+        <section class="container py-5">
+            <h2 class="text-center mb-5">🏥 Patient Module</h2>
+
+            <!-- Login & Dashboard -->
+            <h4 class="mb-4">🔐 Login & Dashboard</h4>
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/indexpage.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Landing Page – Role-Based Login
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/patientdashboard.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Patient Dashboard – Doctor Listing
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Appointment System -->
+            <h4 class="mb-4">📅 Appointment System</h4>
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/bookingpart.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Calendar Booking with Dynamic Time Slots
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/appointmentlist.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Appointment History and Status Tracking
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Prescription & Profile -->
+            <h4 class="mb-4">💊 Prescription & Profile Management</h4>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/prescriptionlist.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Prescription Viewing with Print Option
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/patientprofile.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Profile Management – Edit Personal Information
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Doctor MODULE -->
+        <section class="container py-5">
+            <h2 class="text-center mb-5">👨‍⚕️ Doctor Module</h2>
+
+            <!-- Dashboard & Appointments -->
+            <h4 class="mb-4">📊 Dashboard & Appointments</h4>
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/doctordashboard.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Doctor Dashboard – Overview & Today's Appointments
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/appointment_list.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Appointment Management – Write Prescription Option
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Prescription & Profile -->
+            <h4 class="mb-4">💊 Prescriptions & Profile</h4>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/prescription_list.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            View and Edit Prescriptions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/updateprofile.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Update Doctor Profile Information
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ADMIN MODULE -->
+        <section class="container py-5">
+            <h2 class="text-center mb-5">🛠️ Admin Module</h2>
+
+            <!-- Login & Dashboard -->
+            <h4 class="mb-4">🔐 Login & Dashboard</h4>
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/adminlogin.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Admin Login – Secure Authentication Panel
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/admindashboard.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Admin Dashboard – System Statistics Overview
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- System Management -->
+            <h4 class="mb-4">📊 System Management</h4>
+            <div class="row g-4 mb-5">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/appointments.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Manage Appointments – View All Records
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/doctors.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Manage Doctors – Activate / Block Doctors
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Patient Management -->
+            <h4 class="mb-4">👥 Patient Management</h4>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="screenshot-card">
+                        <img src="image/docease/patients.png" class="img-fluid zoom-img" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                        <p class="caption-text">
+                            Manage Patients – View and Control Accounts
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- IMAGE MODAL -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body text-center p-0">
+                    <img id="modalImage" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Your JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

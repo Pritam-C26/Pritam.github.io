@@ -38,4 +38,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+//zoom in and out of product images
+function openImage(img) {
+    const modalImg = document.getElementById("modalImage");
+    modalImg.src = img.src;
+}
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    const modalImage = document.getElementById("modalImage");
+    const images = document.querySelectorAll(".zoom-img");
+
+    images.forEach(img => {
+        img.addEventListener("click", function () {
+            modalImage.src = this.src;
+        });
+    });
+
+});
